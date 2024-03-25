@@ -1,0 +1,24 @@
+.carouselWrapper {
+    display: flex;
+    overflow-x: auto;
+    /* Allow horizontal scrolling */
+}
+
+.carousel {
+    display: inline-flex;
+    /* Display images horizontally */
+    white-space: nowrap;
+    /* Prevent images from wrapping */
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carouselContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 20rem;
+}
